@@ -1,0 +1,259 @@
+.contact__details {
+  margin-top: 60px;
+  padding-left: 0px;
+}
+.contact {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  height: 100vh; /* Make the container full height of the viewport */
+  gap: 50px;
+}
+.contact__form {
+  margin-top: -30px;
+}
+
+.contact__form h1 {
+  padding-top: 60px;
+  font-size: 60px;
+  font-weight: 800;
+  text-align: left;
+  padding-bottom: 20px;
+  font-family: cursive;
+  margin-left: 10%;
+}
+.contact__form p {
+  justify-content: center;
+  text-align: left;
+  margin-bottom: 50px;
+  margin-left: 10%;
+}
+.contact__image {
+  padding: 0;
+  text-align: right;
+}
+.contact__image img {
+  height: 70%;
+  margin-top: 10%;
+
+  margin-bottom: 100px;
+}
+.form__detail {
+  text-align: right;
+}
+
+#A,
+#B,
+#C {
+  width: 98%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  text-align: left;
+}
+#D {
+  width: 98%;
+  padding-top: 15px;
+  padding-bottom: 90px;
+  border-radius: 5px;
+  padding-left: 15px;
+  background-color: transparent;
+  color: white;
+}
+.submit__buttton {
+  display: inline-block; /* Display the button as an inline-block element */
+  margin-left: -98%; /* Adjust the left margin as needed */
+}
+
+.submit {
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+  background-color: #ff0051;
+  border-radius: 5px;
+  border-style: none;
+  position: absolute;
+  color: white;
+  font-weight: 600;
+  align-items: center;
+  transition: transform 0.3s ease; /* Add transition for smooth effect */
+  cursor: pointer;
+}
+
+.submit:hover {
+  border-style: double;
+  border-color: #ff0051;
+  background-color: transparent;
+  color: #ff0051;
+  transform: translateY(-5px); /* Lift the button by 5 pixels on hover */
+}
+.error {
+  color: red;
+}
+table {
+  margin-top: 11%;
+  margin-left: 10%;
+  border: 1px solid white;
+}
+td,
+th {
+  border: 1px solid white;
+  text-align: left;
+  padding: 10px;
+}
+.update {
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+  background-color: #ff0051;
+  border-radius: 5px;
+  border-style: none;
+  position: absolute;
+  color: white;
+  font-weight: 600;
+  align-items: center;
+  transition: transform 0.3s ease; /* Add transition for smooth effect */
+  cursor: pointer;
+}
+.update:hover {
+  border-style: double;
+  border-color: #ff0051;
+  background-color: transparent;
+  color: #ff0051;
+  transform: translateY(-5px); /* Lift the button by 5 pixels on hover */
+}
+
+@media screen and (max-width: 1630px) {
+  table {
+    margin-top: 18%;
+    margin-left: 10%;
+    border: 1px solid white;
+  }
+  td,
+  th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 1330px) {
+  /* .contact__form {
+    padding: 0;
+  } */
+  .contact__image {
+    text-align: right;
+  }
+  .contact__form h1 {
+    padding-top: 60px;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: left;
+    padding-bottom: 20px;
+    font-family: cursive;
+  }
+  .contact__form p {
+    padding-left: 0px;
+    padding-right: 10%;
+    margin-bottom: 50px;
+    right: 0;
+  }
+
+  .submit__buttton {
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    display: inline-block; /* Display the button as an inline-block element */
+    margin-left: -98%; /* Adjust the left margin as needed */
+  }
+  table {
+    margin-top: 20%;
+    margin-left: 10%;
+    border: 1px solid white;
+  }
+  td,
+  th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .contact {
+    display: block;
+  }
+  .contact__form p {
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .contact__image {
+    padding-right: 20px;
+    text-align: right;
+    display: none;
+   
+  }
+  #A,
+  #B,
+  #C {
+    left: 0;
+    padding: 30px;
+  }
+
+  .form__detail {
+    text-align: left;
+    padding-left: 54px;
+    padding-right: 5px;
+  }
+  .submit__buttton {
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    display: inline-block; /* Display the button as an inline-block element */
+    left: 0;
+    margin-bottom: 20%;
+  }
+  table {
+    margin-top: -10%;
+    margin-left: 9.5%;
+    border: 1px solid white;
+    margin-bottom: 20px;
+  }
+  td,
+  th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .contact {
+    display: block;
+    margin-top: -40px;
+  }
+  .contact__image {
+    padding-right: 20px;
+    text-align: right;
+    display: none;
+  }
+  .submit__button {
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: -0.5%;
+    margin-bottom: 150px;
+    position: relative;
+  }
+}

@@ -1,0 +1,166 @@
+.card__details {
+  background-color: rgb(8, 4, 4);
+  margin-bottom: 80px;
+}
+
+.service__heading {
+  padding: 40px;
+  justify-content: center;
+}
+.Service__card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.service__heading h1 {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.service__heading p {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.card {
+  padding: 80px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: rgb(29, 27, 27);
+  transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.card a {
+  font-size: 50px;
+  color: #750606af;
+  font-weight: 800;
+}
+
+.card h1{
+  margin-bottom: 10px;
+}
+.card:hover a,
+.card:hover h1,
+.card:hover p {
+  color: white; /* Apply the styles you want when hovering */
+}
+
+
+.card:hover {
+  background-color: #e01414;
+  transform: translateY(-5px); /* Move the card up by 5 pixels on hover */
+}
+
+/* .card a:hover {
+  color: white;
+} */
+
+@media screen and (max-width: 1330px) {
+  .Service__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+  }
+  .card {
+   padding: 50px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: rgb(29, 27, 27);
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+}
+
+@media screen and (max-width: 780px) {
+  .Service__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+  }
+  .card {
+    padding-left: 20px;
+    height: 340px;
+    border-radius: 10px;
+    background-color: rgb(29, 27, 27);
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Service__card {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+  }
+  .card {
+    padding-left: 20px;
+    height: 340px;
+    border-radius: 10px;
+    background-color: rgb(29, 27, 27);
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+    
+  }
+  .service__heading{
+padding-left: 0;
+padding-right: 0;
+padding-bottom: 10px;
+}
+}
+
+@media screen and (max-width: 390px) {
+  .Service__card {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+  }
+  .card {
+    padding-left: 20px;
+    height: 340px;
+    border-radius: 10px;
+    background-color: rgb(29, 27, 27);
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+    
+  }
+  .service__heading{
+padding-left: 0;
+padding-right: 0;
+padding-bottom: 10px;
+}
+.service__heading p{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}

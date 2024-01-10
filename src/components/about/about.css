@@ -1,0 +1,191 @@
+.about_info {
+  margin-top: -250px;
+  display: flex;
+  position: relative;
+  margin-bottom: 90px;
+  z-index: 2;
+}
+
+.first__about {
+  width: 100%;
+  text-align: right;
+  padding: 20px;
+}
+
+.second__about {
+  width: 100%;
+  text-align: left;
+  padding: 50px;
+  padding-top: 80px;
+}
+
+.second__about p {
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  max-width: 650px;
+  font-size: large;
+}
+
+.about__text {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.skills_butt ul {
+  display: flex;
+}
+
+.skills_butt {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.skills_butt a {
+  text-decoration: none;
+  color: rgb(187, 183, 183);
+  font-size: large;
+  cursor: pointer;
+}
+
+.skills_butt a.active {
+  color: rgb(255, 0, 0);
+  border-bottom: 2px solid rgb(255, 0, 0);
+}
+
+@media screen and (max-width: 1340px) {
+  .about_info {
+    margin-top: 100px;
+    position: relative;
+  }
+  .first__about {
+    width: 100%;
+    text-align: center;
+    padding: 0%;
+  }
+  .first__about img {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .about__text {
+    font-size: 60px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .about_info {
+    gap: 0%;
+    padding-left: 0%;
+  }
+  .first__about img {
+    padding-left: 40px;
+    width: 100%;
+    height: 680px;
+    margin-top: 20px;
+  }
+  .second__about {
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+
+  .about__text {
+    font-size: 60px;
+    margin-bottom: 15px;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .skills_butt {
+    max-width: 100%;
+    display: flex;
+    padding-left: 50px;
+  }
+  .text__A {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+  }
+  .skill__details {
+    padding-left: 50px;
+    margin-bottom: 20px;
+    height: 10vh;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .about_info {
+    display: block;
+    padding: 0%;
+  }
+  .first__about img {
+    padding-left: 40px;
+    width: 80%;
+    height: 85vh;
+  }
+  .second__about {
+    text-align: left;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .about__text {
+    font-size: 60px;
+    margin-bottom: 15px;
+    max-width: 100%;
+  }
+
+  .skills_butt {
+    max-width: 100%;
+    display: block;
+  }
+}
+@media screen and (max-width: 740px) {
+  .about_info {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .first__about img {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 80%;
+    height: 75vh;
+  }
+  .second__about {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .first__about img {
+    width: 80%;
+    margin-right: 10px;
+    height: 58vh;
+  }
+  .about_info {
+    margin-top: -30px;
+  }
+  .skill__details {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .first__about img {
+    width: 80%;
+    margin-right: 10px;
+    height: 42vh;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .first__about img {
+    width: 100%;
+    margin-right: 10px;
+    height: 46vh;
+  }
+}

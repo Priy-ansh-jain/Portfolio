@@ -1,0 +1,13 @@
+.home-container{
+    height: 100vh;
+    position: relative;
+    background-image: url("https://trydo.rainbowit.net/assets/images/bg/bg-image-28.jpg");
+    margin-top: -110px;
+    z-index: -1;
+}
+.home-container-text{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    background-size: cover;
+}
